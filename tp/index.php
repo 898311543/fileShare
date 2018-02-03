@@ -1,0 +1,10 @@
+<?php
+	define("THINK_PATH","./ThinkPHP/");
+	define("APP_PATH","./Home/");
+	define("TRUE_FILE","/tp/");
+	define("APP_NAME","member");
+	define("APP_DEBUG",true);
+	define("TEST_VALUE","value");
+	define("FILE_PATH","./pub_file/");
+	require_once(THINK_PATH."ThinkPHP.php");
+	?>

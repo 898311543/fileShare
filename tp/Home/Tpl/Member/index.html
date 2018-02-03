@@ -1,0 +1,20 @@
+<html>
+	<head>
+	</head>
+	<body>
+		<table width="780" height="107" border="0" cellpadding="1" bgcolor="#cccccc">
+			<tr>
+				<td height="42" align="center" bgcolor="#ffffff">编号</td>
+				<td align="center" bgcolor="#ffffff">用户名</td>
+				<td align="center" bgcolor="#ffffff">用户邮箱</td>
+				</tr>
+			<volist name="data" id="vo">
+				<tr>
+					<td height="42" align="center" bgcolor="#ffffff">{$vo.id}</td>
+					<td align="center" bgcolor="#ffffff">{$vo.user_name}</td>
+					<td align="center" bgcolor="#ffffff">{$vo.user_email}</td>
+				</tr>
+				</volist>
+			</table>
+			</body>
+	</html>
